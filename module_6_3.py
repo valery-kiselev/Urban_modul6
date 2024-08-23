@@ -25,7 +25,7 @@ class Pegasus(Horse, Eagle):
         return (self.x_distance, self.y_distance)
 
 
-    def voice(self):    # печатает значение унаследованного атрибута sound.
+    def voice(self):  
         print(self.sound)
 
 p1 = Pegasus()
